@@ -103,6 +103,15 @@
                                     <rect key="frame" x="24" y="85" width="326" height="64"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tj-py-0k0">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="157" width="211" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="L91-hg-U27"/>
                                 <exclude reference="SB8-Fw-VCX"/>
                                 <exclude reference="BWP-Jk-wEz"/>
+                                <exclude reference="6Tj-py-0k0"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="L91-hg-U27"/>
                                 <include reference="SB8-Fw-VCX"/>
                                 <include reference="BWP-Jk-wEz"/>
+                                <include reference="6Tj-py-0k0"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterName" destination="Jrb-xU-SpU" id="yom-OD-a9G"/>
                         <outlet property="mailButton" destination="SB8-Fw-VCX" id="ITc-61-1iL"/>
                         <outlet property="messageLabel" destination="BWP-Jk-wEz" id="M8k-Xj-iId"/>
+                        <outlet property="nameLabel" destination="6Tj-py-0k0" id="2CB-f4-gYr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
